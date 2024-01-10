@@ -28395,11 +28395,11 @@
     "data": {
       "id": 119289,
       "eid": 2483,
-      "entityid": "https://idp.surfnet.nl",
+      "entityid": "http://mock-idp",
       "revisionid": 118,
       "state": "prodaccepted",
       "type": "saml20-idp",
-      "metadataurl": "https://idp.surfnet.nl/saml2/idp/metadata.php",
+      "metadataurl": "http://mock-idp/saml2/idp/metadata.php",
       "allowedall": false,
       "manipulation": null,
       "user": "engine",
@@ -28458,7 +28458,7 @@
         "OrganizationName:en": "SURFnet bv organization name en",
         "OrganizationDisplayName:nl": "SURFnet bv",
         "contacts:3:contactType": "support",
-        "SingleSignOnService:0:Location": "https://idp.surfnet.nl/saml2/idp/SSOService.php",
+        "SingleSignOnService:0:Location": "http://mock-idp/saml2/idp/SSOService.php",
         "coin:entity_categories:5": "http://refeds.org/category/research-and-scholarship",
         "coin:display_admin_emails_in_dashboard": true,
         "coin:display_stats_in_dashboard":  true
