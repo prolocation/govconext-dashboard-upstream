@@ -28460,7 +28460,6 @@
         "contacts:3:contactType": "support",
         "SingleSignOnService:0:Location": "http://mock-idp/saml2/idp/SSOService.php",
         "coin:entity_categories:5": "http://refeds.org/category/research-and-scholarship",
-        "coin:display_admin_emails_in_dashboard": true,
         "coin:display_stats_in_dashboard":  true
       },
       "allowedEntities": [
@@ -32142,7 +32141,6 @@
         "OrganizationDisplayName:nl": "SURF",
         "contacts:3:contactType": "technical",
         "SingleSignOnService:0:Location": "https://idp.surf.nl/saml2/idp/SSOService.php",
-        "coin:display_admin_emails_in_dashboard":  false,
         "coin:display_stats_in_dashboard":  false
       },
       "allowedEntities": [
