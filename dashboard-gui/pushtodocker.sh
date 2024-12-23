@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 IMAGENAME="ghcr.io/openconext/openconext-dashboard/dashboard-gui"
-#VERSION=12.3.18.1
 VERSION=13.0.0
 
 mvn clean install
