@@ -201,9 +201,9 @@ I18n.translations.nl = {
             approved: 'goedgekeurd',
             denied: 'afgewezen',
             institutions_header: {
-                one: 'Gebruikt door 1 instelling',
-                other: 'Gebruikt door {{count}} instellingen',
-                zero: 'Gebruikt door geen instellingen',
+                one: 'Gebruikt door 1 organisatie',
+                other: 'Gebruikt door {{count}} organisaties',
+                zero: 'Gebruikt door geen organisaties',
             },
             institutions: 'Organisaties',
             provided_information: '{{organisation}} heeft de volgende informatie doorgegeven',

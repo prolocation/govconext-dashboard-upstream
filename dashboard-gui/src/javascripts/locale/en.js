@@ -91,7 +91,7 @@ I18n.translations.en = {
             },
             used_by_idp: {
                 all: 'All',
-                name: 'Offered by my institution',
+                name: 'Offered by my organisation',
                 no: 'No',
                 yes: 'Yes',
             },
@@ -201,9 +201,9 @@ I18n.translations.en = {
             approved: 'approved',
             denied: 'denied',
             institutions_header: {
-                one: 'Used by 1 institution',
-                other: 'Used by {{count}} institutions',
-                zero: 'Used by no institutions',
+                one: 'Used by 1 organisation',
+                other: 'Used by {{count}} organisation',
+                zero: 'Used by no organisation',
             },
             institutions: 'Institutions',
             provided_information: '{{organisation}} provided the following information',

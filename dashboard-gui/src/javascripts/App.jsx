@@ -43,7 +43,7 @@ class App extends React.Component {
     const showStats = currentUser.showStats()
     return (
       <CurrentUserContext.Provider value={{ currentUser: currentUser }}>
-        <Helmet defaultTitle="SURFconext IdP Dashboard" titleTemplate="%s - SURFconext IdP Dashboard"></Helmet>
+        <Helmet defaultTitle="govconext IdP Dashboard" titleTemplate="%s - govconext IdP Dashboard"></Helmet>
         <Router>
           <>
             <a id="skip-nav" className="screenreader-text" href="#main-content">
