@@ -34,7 +34,7 @@ I18n.translations.nl = {
         loginRequired: 'Log in voor meer informatie',
         super_user_switch: 'Switch identiteit',
         welcome_txt:
-            'Je vindt hier alle op SURFconext aangesloten applicaties. Log in voor informatie toegesneden op jouw instelling.',
+            'Je vindt hier alle op govconext aangesloten applicaties. Log in voor informatie toegesneden op jouw instelling.',
     },
     forms: {
         required: '{{name}} is een verplicht veld',
@@ -87,7 +87,7 @@ I18n.translations.nl = {
                 unknown: 'Onbekend',
                 not_needed: 'Nee',
                 has_license_sp: 'Ja, bij SP',
-                has_license_surfmarket: 'Ja, bij SURF',
+                has_license_surfmarket: 'Ja, bij govconext',
             },
             used_by_idp: {
                 all: 'Alle',
@@ -110,9 +110,9 @@ I18n.translations.nl = {
             },
             interfed_source: {
                 tooltip:
-                    'Sommige via SURFconext beschikbare applicaties zijn primair aangesloten op een met SURFconext gekoppelde federatie. Hier kun je evt selecteren per federatie.',
+                    'Sommige via govconext beschikbare applicaties zijn primair aangesloten op een met govconext gekoppelde federatie. Hier kun je evt selecteren per federatie.',
                 name: 'Federatiebron',
-                surfconext: 'SURFconext',
+                surfconext: 'govconext',
                 edugain: 'eduGAIN',
                 entree: 'Entree',
             },
@@ -188,7 +188,7 @@ I18n.translations.nl = {
             },
             connected_resource_servers: 'Resource servers',
             sirtfi_security: 'Sirtfi contacten',
-            ssid: 'SURFsecureID',
+            ssid: 'govsecure',
             privacy: 'Privacy',
             consent: 'Consent',
             back: 'Terug',
@@ -205,7 +205,7 @@ I18n.translations.nl = {
                 other: 'Gebruikt door {{count}} instellingen',
                 zero: 'Gebruikt door geen instellingen',
             },
-            institutions: 'Instellingen',
+            institutions: 'Organisaties',
             provided_information: '{{organisation}} heeft de volgende informatie doorgegeven',
             connect_service: 'Koppel met applicatie',
             connect_service_single_tenant: 'Aanvragen applicatie',
@@ -243,7 +243,7 @@ I18n.translations.nl = {
             search: 'Zoek',
             search_hint: 'Zoeken...',
             add_services_hint:
-                'Is de applicatie die je zoekt niet te vinden? Stuur dan je contact bij die applicatie een mail dat je de applicatie graag wil gebruiken, maar dan wel via <a href="http://support.surfconext.nl/getconexted" target="_blank" rel="noopener noreferrer">SSO van SURFconext</a> zodat je in kunt loggen met je instellingsaccount. Dat dat veiliger en handiger voor iedereen is. Je kunt vermelden dat de applicatie daarmee ook aantrekkelijker wordt voor andere instellingen, ook buiten Nederland. De applicatie kan voor meer informatie contact opnemen met support@surfconext.nl.',
+                'Is de applicatie die je zoekt niet te vinden? Stuur dan je contact bij die applicatie een mail dat je de applicatie graag wil gebruiken, maar dan wel via <a href="http://support.surfconext.nl/getconexted" target="_blank" rel="noopener noreferrer">SSO van govconext</a> zodat je in kunt loggen met je instellingsaccount. Dat dat veiliger en handiger voor iedereen is. Je kunt vermelden dat de applicatie daarmee ook aantrekkelijker wordt voor andere instellingen, ook buiten Nederland. De applicatie kan voor meer informatie contact opnemen met support@surfconext.nl.',
         },
         settings: {
             title: 'SP-opties',
@@ -262,7 +262,7 @@ I18n.translations.nl = {
         support: 'Support-pagina',
         login: 'Login-pagina',
         registration_info_html:
-            'Deze applicatieaanbieder is beschikbaar in SURFconext via <a href="https://support.surfconext.nl/edugain" target="_blank" rel="noopener noreferrer">eduGAIN</a>. De applicatieaanbieder is door de volgende federatie geregistreerd: <a href="{{url}}" target="_blank" rel="noopener noreferrer">{{url}}</a>.',
+            'Deze applicatieaanbieder is beschikbaar in govconext via <a href="https://support.surfconext.nl/edugain" target="_blank" rel="noopener noreferrer">eduGAIN</a>. De applicatieaanbieder is door de volgende federatie geregistreerd: <a href="{{url}}" target="_blank" rel="noopener noreferrer">{{url}}</a>.',
         registration_policy: 'Registratiebeleid',
         privacy_statement: 'Privacyverklaring',
         metadata_link: 'Metadata',
@@ -310,7 +310,7 @@ I18n.translations.nl = {
         entityID: 'Entity ID',
         rpClientID: 'Client ID',
         wiki_info_html:
-            'Voor deze applicatie is extra informatie beschikbaar in de SURFconext <a href="{{link}}" target="_blank" rel="noopener noreferrer">wiki</a>.',
+            'Voor deze applicatie is extra informatie beschikbaar in de govconext <a href="{{link}}" target="_blank" rel="noopener noreferrer">wiki</a>.',
         no_description: 'Er is geen beschijving voor deze applicatie.',
         description: 'Beschrijving',
         has_connection: 'Applicatie gekoppeld',
@@ -342,19 +342,19 @@ I18n.translations.nl = {
         },
         aansluitovereenkomst: 'Aansluitovereenkomst',
         aansluitovereenkomstRefused:
-            '{{organisation}} heeft geweigerd om de SURFconext aansluitovereenkomst te tekenen. Lees meer over deze overeenkomst op de <a href="https://support.surfconext.nl/dashboard-info-trust" target="_blank" rel="noopener noreferrer">SURF wiki</a>.',
+            '{{organisation}} heeft geweigerd om de govconext aansluitovereenkomst te tekenen. Lees meer over deze overeenkomst op de <a href="https://support.surfconext.nl/dashboard-info-trust" target="_blank" rel="noopener noreferrer">SURF wiki</a>.',
         vendorInfo: 'Deze applicatie wordt aangeboden door {{organisation}}.',
         privacyInformation: 'Privacy-informatie',
         privacyInformationInfo: '{{organisation}} heeft geen privacy-informatie aangeleverd.',
         contractualBase: {
             na: 'Voor deze SP is geen informatie beschikbaar over de contractuele basis: mail naar <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> als je daarover vragen hebt.',
-            ao: '{{organisation}} heeft de SURFconext aansluitovereenkomst getekend.',
-            ix: 'Applicatie aangeboden door op SURFconext aangesloten instelling.',
+            ao: '{{organisation}} heeft de govconext aansluitovereenkomst getekend.',
+            ix: 'Applicatie aangeboden door op govconext aangesloten instelling.',
             'r&s+coco':
                 'eduGAIN-applicatie die zich akkoord heeft verklaard met de Data Protection Code of Conduct en valt in de Research & Scholarship entity category.',
             entree: 'Aangsloten op de Kennisnet Entree-federatie.',
             clarin: 'Onderdeel van de Clarin-onderzoeksfederatie.',
-            none: '{{organisation}} heeft de SURFconext aansluitovereenkomst niet willen tekenen.',
+            none: '{{organisation}} heeft de govconext aansluitovereenkomst niet willen tekenen.',
             'edugain (community)': 'Applicatie aangeboden door de internationale onderwijs- en onderzoeksgemeenschap via eduGAIN.'
         },
         contractualBaseWiki:
@@ -385,14 +385,14 @@ I18n.translations.nl = {
         persistentMotivation: "Primaire identifier van de gebruiker",
         sources: {
             idp: 'Je IdP',
-            surf: 'SURFconext',
-            voot: 'SURFconext Teams',
-            invite: 'SURFconext Invite',
+            surf: 'govconext',
+            voot: 'govconext Teams',
+            invite: 'govconext Invite',
             eduid: 'eduID',
             sab: 'SURF Autorisatie Beheer',
             ala: 'Je IdP',
             pseudo_email:'Je IdP',
-            manage: 'SURFconext',
+            manage: 'govconext',
             sabrest: 'SAB'
         },
         sourceTooltip: "Welke bron levert de waarden voor dit attribuut. Je IdP hoeft alleen de items te verstrekken die zijn gemarkeerd met 'Je IdP'.",
@@ -436,8 +436,8 @@ I18n.translations.nl = {
         subtitle: 'De volgende instellingen zijn gekoppeld aan {{name}}.',
         subtitle_none: 'Er zijn geen instellingen gekoppeld aan {{name}}.',
         subtitle_single_tenant:
-            'Als je wil weten door welke andere instellingen {{name}} via SURFconext wordt gebruikt, kun je dat opvragen via support@surfconext.nl.',
-        institution: 'Instelling',
+            'Als je wil weten door welke andere instellingen {{name}} via govconext wordt gebruikt, kun je dat opvragen via ondersteuning@govroam.nl.',
+        institution: 'Organisatie',
     },
     sirtfi_panel: {
         title: 'De Sirtfi contact personen voor {{name}}',
@@ -498,7 +498,7 @@ I18n.translations.nl = {
         save: 'Verstuur verzoek',
         request: 'Verzoek aanpassing',
         loa_level: 'SURFsecureID Level of Assurance (LoA)',
-        defaultLoa: 'LoA 1: Wachtwoordauthenticatie door SURFconext bij de instelling van de gebruiker',
+        defaultLoa: 'LoA 1: Wachtwoordauthenticatie door govconext bij de instelling van de gebruiker',
         loa1_5: 'LoA 1.5 (see the wiki for more info)',
         loa2: 'LoA 2 (see the wiki for more info)',
         loa3: 'LoA 3 (see the wiki for more info)',
@@ -529,7 +529,7 @@ I18n.translations.nl = {
         checklist: 'Loop deze checklist na voordat je een connectie activeert:',
         processing_agreements:
             'Controleer of je instelling voor deze applicatie een <a href="https://support.surfconext.nl/dashboard-help-vwo" target="_blank" rel="noopener noreferrer">verwerkersovereenkomst</a> nodig heeft, en zo ja, of die geregeld is.',
-        comments_description: 'Opmerkingen worden verstuurd naar SURFconext.',
+        comments_description: 'Opmerkingen worden verstuurd naar govconext.',
         comments_placeholder: 'Voer hier je opmerkingen in...',
         comments_title: 'Eventuele opmerkingen?',
         automatic_connect: 'Activeer connectie meteen',
@@ -539,20 +539,20 @@ I18n.translations.nl = {
         disconnect: 'Verbinding deactiveren',
         disconnect_title: 'Deactiveer connectie met {{app}}',
         done_disconnect_subtitle_html:
-            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:support@surfconext.nl">support@surfconext.nl</a>.',
+            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>.',
         done_disconnect_subtitle_html_with_jira_html:
-            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:support@surfconext.nl">support@surfconext.nl</a>. Stuur a.u.b. het ticketnummer mee in het onderwerp ({{jiraKey}}).',
+            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>. Stuur a.u.b. het ticketnummer mee in het onderwerp ({{jiraKey}}).',
         done_disconnect_title: 'Verzoek om verbinding te deactiveren is aangevraagd!',
         done_disconnect_subtitle_html_with_jira_html_after_invite:
-            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:support@surfconext.nl">support@surfconext.nl</a>. Stuur a.u.b. het ticketnummer mee in het onderwerp ({{jiraKey}}).',
+            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>. Stuur a.u.b. het ticketnummer mee in het onderwerp ({{jiraKey}}).',
         done_disconnect_title_after_invite: 'Verzoek om verbinding te deactiveren is aangevraagd!',
         done_subtitle_html:
-            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:support@surfconext.nl">support@surfconext.nl</a>.',
+            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>.',
         done_subtitle_with_jira_html:
-            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:support@surfconext.nl?subject=Vraag over koppeling {{jiraKey}}">support@surfconext.nl</a>. Stuur a.u.b. het ticketnummer mee in het onderwerp ({{jiraKey}}).',
+            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:ondersteuning@govroam.nl?subject=Vraag over koppeling {{jiraKey}}">ondersteuning@govroam.nl</a>. Stuur a.u.b. het ticketnummer mee in het onderwerp ({{jiraKey}}).',
         done_title: 'Verbinding aangevraagd!',
         done_subtitle_with_jira_html_after_invite:
-            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:support@surfconext.nl?subject=Vraag over koppeling {{jiraKey}}">support@surfconext.nl</a>. Stuur a.u.b. het ticketnummer mee in het onderwerp ({{jiraKey}}).',
+            'Er zal contact worden opgenomen om deze aanvraag af te ronden. Als je voor die tijd nog vragen hebt, neem dan contact op met <a href="mailto:ondersteuning@govroam.nl?subject=Vraag over koppeling {{jiraKey}}">ondersteuning@govroam.nl</a>. Stuur a.u.b. het ticketnummer mee in het onderwerp ({{jiraKey}}).',
         done_title_after_invite: 'Verbinding aangevraagd!',
         rejected_without_interaction_title: 'Koppeling niet geslaagd!',
         rejected_without_interaction_subtitle: 'Er is iets fout gegaan bij de koppeling.',
@@ -574,7 +574,7 @@ I18n.translations.nl = {
         jira_unreachable: 'Er is iets mis gegaan bij de aanvraag',
         jira_unreachable_description: 'Het is op dit moment niet mogelijk om een aanvraag te doen. Probeer het later opnieuw.',
         jira_down: 'Ticketsysteem is niet beschikbaar',
-        jira_down_description: 'Omdat het ticketsysteem niet beschikbaar is kan nu geen wijziging worden aangevraagd. Neem contact op met <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> voor het maken van een wijziging.',
+        jira_down_description: 'Omdat het ticketsysteem niet beschikbaar is kan nu geen wijziging worden aangevraagd. Neem contact op met <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> voor het maken van een wijziging.',
         license: 'licentie',
         license_info: 'de licentie-informatie',
         obtain_license: {
@@ -591,7 +591,7 @@ I18n.translations.nl = {
         terms_title: 'Met het activeren van de connectie ga je akkoord met de volgende voorwaarden:',
         wiki: 'wiki voor deze applicatie',
         aansluitovereenkomst_accept:
-            "Ik stem in met het activeren van een applicatie die geweigerd heeft de SURFconext aansluitovereenkomst te ondertekenen.",
+            "Ik stem in met het activeren van een applicatie die geweigerd heeft de govconext aansluitovereenkomst te ondertekenen.",
         not_published_in_edugain_idp: 'eduGAIN-applicatie',
         not_published_in_edugain_idp_info:
             "De applicatie {{name}} kan niet worden gekoppeld omdat je instelling niet is gepubliceerd is in eduGAIN. Om je instelling te publiceren in eduGAIN kun je een aanvraag doen in 'Mijn Instellling' en daar 'Gepubliceerd in eduGAIN' selecteren.",
@@ -626,7 +626,7 @@ I18n.translations.nl = {
         title: 'Applicatiegebruik',
         download: 'Export',
         error_html:
-            'Op dit moment zijn de statistieken niet beschikbaar. <a href="mailto:support@surfconext.nl">Neem contact op</a> met de supportafdeling, voor meer informatie.',
+            'Op dit moment zijn de statistieken niet beschikbaar. <a href="mailto:ondersteuning@govroam.nl">Neem contact op</a> met de supportafdeling, voor meer informatie.',
     },
     contact: {
         email: 'Applicatie support e-mail',
@@ -702,7 +702,7 @@ I18n.translations.nl = {
     server_error: {
         title: 'Je hebt onvoldoende rechten om de Dashboard applicatie te gebruikem.',
         description_html:
-            'Neem contract op met <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> in het geval dat je denkt dat dit niet juist is.',
+            'Neem contract op met <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> in het geval dat je denkt dat dit niet juist is.',
     },
     not_found: {
         title: 'OEPS, deze pagina kan momenteel niet worden getoond.',
@@ -723,11 +723,11 @@ I18n.translations.nl = {
     footer: {
         tips_or_info: 'Tips of informatie nodig?',
         help_html:
-            '<a href="https://support.surfconext.nl/dashboard-help-nl#Beschikbaredienstenactiveren-HandleidingSURFconextDashboard" target="_blank" rel="noopener noreferrer">Help</a>',
-        surf_html: '<a href="https://www.surf.nl/" target="_blank" rel="noopener noreferrer">SURF</a>',
+            '<a href="https://wiki.support.govroam.nl/wiki/spaces/govconext/overview" target="_blank" rel="noopener noreferrer">Help</a>',
+        surf_html: '<a href="https://www.govroam.nl/" target="_blank" rel="noopener noreferrer">govroam</a>',
         terms_html:
-            '<a href="https://support.surfconext.nl/terms-nl" target="_blank" rel="noopener noreferrer">Gebruikersvoorwaarden</a>',
-        contact_html: '<a href="mailto:support@surfconext.nl">support@surfconext.nl</a>',
+            '<a href="https://govroam.nl/aansluiten/voorwaarden/" target="_blank" rel="noopener noreferrer">Gebruikersvoorwaarden</a>',
+        contact_html: '<a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>',
     },
 
     my_idp: {
@@ -743,17 +743,17 @@ I18n.translations.nl = {
         settings: 'Opties',
         settings_edit: 'Gegevens van mijn eigen instelling',
         settings_text:
-            "Hieronder staan enkele gegevens van jouw instelling en van applicatieaanbieder die door jouw instelling in SURFconext worden aangeboden. Deze gegevens worden in SURFconext gebruikt, bijvoorbeeld in de Where Are You From-pagina. Je kunt deze gegevens laten wijzigen door te klikken op 'Wijzigingsverzoek aanmaken'.",
+            "Hieronder staan enkele gegevens van jouw instelling en van applicatieaanbieder die door jouw instelling in govconext worden aangeboden. Deze gegevens worden in govconext gebruikt, bijvoorbeeld in de Where Are You From-pagina. Je kunt deze gegevens laten wijzigen door te klikken op 'Wijzigingsverzoek aanmaken'.",
         settings_text_viewer:
-            'Hieronder staan enkele gegevens van jouw instelling en van applicatieaanbieder die door jouw instelling in SURFconext worden aangeboden. Deze gegevens worden in SURFconext gebruikt, bijvoorbeeld in de Where Are You From-pagina.',
-        SURFconextverantwoordelijke: 'SURFconextverantwoordelijke',
-        SURFconextbeheerder: 'SURFconextbeheerder',
+            'Hieronder staan enkele gegevens van jouw instelling en van applicatieaanbieder die door jouw instelling in govconext worden aangeboden. Deze gegevens worden in govconext gebruikt, bijvoorbeeld in de Where Are You From-pagina.',
+        govconextverantwoordelijke: 'govconextverantwoordelijke',
+        govconextbeheerder: 'govconextbeheerder',
         'Dashboard supergebruiker': 'Dashboard supergebruiker',
         services_title: 'Applicaties aangeboden door jouw instelling',
         services_title_none: 'Geen',
         service_name: 'Naam applicatie',
         license_contact_html:
-            'Primaire licentiecontactpersoon (<a target="_blank" rel="noopener noreferrer" href="https://support.surfconext.nl/dashboard-help-nl#Beschikbaredienstenactiveren-HoekunjeopSURFconextaangeslotendienstenactiveren?">toelichting</a>):',
+            'Primaire licentiecontactpersoon (<a target="_blank" rel="noopener noreferrer" href="https://support.surfconext.nl/dashboard-help-nl#Beschikbaredienstenactiveren-Hoekunjeopgovconextaangeslotendienstenactiveren?">toelichting</a>):',
         license_contact_name: 'Naam',
         license_contact_email: 'Email',
         license_contact_phone: 'Telefoonnummer',
@@ -855,8 +855,8 @@ I18n.translations.nl = {
                 title: 'Administratief Contact:<br>',
                 display: 'Administratief Contact',
                 tooltip:
-                    "De administratieve contactpersoon van de IdP. In de praktijk is dit vaak dezelfde contactpersoon als de rol 'SURFconext-verantwoordelijke'.<br><br>",
-                alttooltip: "suggestie: persoon met rol 'SURFconext-verantwoordelijke'",
+                    "De administratieve contactpersoon van de IdP. In de praktijk is dit vaak dezelfde contactpersoon als de rol 'govconext-verantwoordelijke'.<br><br>",
+                alttooltip: "suggestie: persoon met rol 'govconext-verantwoordelijke'",
             },
             other: {
                 title: 'Other:<br>',
@@ -881,7 +881,7 @@ I18n.translations.nl = {
         edit_message: 'De volgende velden kunnen worden aangepast.',
         save: 'Maak wijzigingsverzoek aan',
         change_request_created:
-            'Wijzigingsverzoek ingediend bij het SURFconext-team. Het ticketnummer van het wijzigingsverzoek is {{jiraKey}}',
+            'Wijzigingsverzoek ingediend bij het govconext-team. Het ticketnummer van het wijzigingsverzoek is {{jiraKey}}',
         no_change_request_created: 'Er is geen wijzigingsverzoek aangemaakt aangezien er geen wijzigingen zijn gemaakt.',
         change_request_failed: 'Er ging iets mis bij het aanmaken van het wijzigingsverzoek.',
         comments: 'Opmerkingen',
@@ -907,7 +907,7 @@ I18n.translations.nl = {
             active: 'Actief',
             description: 'Omschrijving',
             header: 'Autorisatieregels',
-            identityProviderNames: 'Instelling(en)',
+            identityProviderNames: 'Organisatie(s)',
             inactive: 'Inactief',
             name: 'Naam',
             numberOfRevisions: 'Revisies',
@@ -926,7 +926,7 @@ I18n.translations.nl = {
             " De waarde(s) moeten volledige unieke groep ID zijn, b.v.. 'urn:collab:group:surfteams.nl:nl:surfnet:applicaties:admins'",
         new_attribute: 'Nieuw attribuut',
         new_value: '+ Nieuwe waarde',
-        sab_info: "De waarde(s) moet geldige rollen in SAB zijn, b.v. 'Instellingsbevoegde'",
+        sab_info: "De waarde(s) moet geldige rollen in GAB zijn, b.v. 'govconext-organisatiebevoegde'",
         values: 'Waarde(s)',
         help_link: 'https://support.surfconext.nl/dashboard-help-attributes',
         attributeTooltip: 'Klik om meer te lezen over attributen.',
@@ -1111,7 +1111,7 @@ I18n.translations.nl = {
     profile: {
         title: 'Profiel',
         sub_title:
-            'Van je instelling hebben wij de volgende gegevens ontvangen. Deze gegevens, alsmede je groepsrelaties, worden opgeslagen in (en gebruikt door) SURFconext. Tevens is het mogelijk dat deze gegevens worden verstrekt aan applicaties die je via SURFconext benadert.',
+            'Van je instelling hebben wij de volgende gegevens ontvangen. Deze gegevens, alsmede je groepsrelaties, worden opgeslagen in (en gebruikt door) govconext. Tevens is het mogelijk dat deze gegevens worden verstrekt aan applicaties die je via govconext benadert.',
         my_attributes: 'Mijn attributen',
         attribute: 'Attribuut',
         value: 'Waarde',
@@ -1121,11 +1121,11 @@ I18n.translations.nl = {
         role_description: 'Omschrijving',
         roles: {
             ROLE_DASHBOARD_ADMIN: {
-                name: 'SURFconextverantwoordelijke',
+                name: 'govconextverantwoordelijke',
                 description: 'Je bent gemachtigd om voor je instelling de connecties met applicatieaanbieders te beheren',
             },
             ROLE_DASHBOARD_VIEWER: {
-                name: 'SURFconextbeheerder',
+                name: 'govconextbeheerder',
                 description: 'Je bent gemachtigd om voor je instelling de connecties met applicatieaanbieders in te zien',
             },
             ROLE_DASHBOARD_MEMBER: {
@@ -1225,15 +1225,15 @@ I18n.translations.nl = {
             },
             'Shib-userStatus': {
                 name: 'Gebruikersstatus',
-                description: 'Status van deze gebruiker in SURFconext',
+                description: 'Status van deze gebruiker in govconext',
             },
             'Shib-accountstatus': {
                 name: 'Accountstatus',
-                description: 'Status van deze account in SURFconext',
+                description: 'Status van deze account in govconext',
             },
             'name-id': {
                 name: 'Identifier',
-                description: 'Status van deze account in SURFconext',
+                description: 'Status van deze account in govconext',
             },
             'Shib-voName': {
                 name: 'Virtuele organisatienaam',
@@ -1241,11 +1241,11 @@ I18n.translations.nl = {
             },
             'Shib-user': {
                 name: 'Identifier',
-                description: 'Status van deze account in SURFconext',
+                description: 'Status van deze account in govconext',
             },
             'is-member-of': {
                 name: 'Lidmaatschap',
-                description: 'Lidmaatschap van virtuele organisaties en SURFconext',
+                description: 'Lidmaatschap van virtuele organisaties en govconext',
             },
             'Shib-surfEckid': {
                 name: 'SURF EDU-K',
