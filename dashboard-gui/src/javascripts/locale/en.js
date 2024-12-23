@@ -84,7 +84,7 @@ I18n.translations.en = {
             },
             license: {
                 has_license_sp: 'Yes, with SP',
-                has_license_surfmarket: 'Yes, with SURF',
+                has_license_surfmarket: 'Yes, with govconext',
                 name: 'License',
                 not_needed: 'No',
                 unknown: 'Unknown',
@@ -130,13 +130,13 @@ I18n.translations.en = {
             strong_authentication: {
                 name: 'SURFsecureID enabled',
                 tooltip:
-                    'SURFsecureID second factor authentication is required.<br>For more information see the <a href="https://wiki.surfnet.nl/display/surfconextdev/SURFconext+IdP+dashboard+-+help+page" target="_blank" rel="noopener noreferrer">wiki</a>.',
+                    'SURFsecureID second factor authentication is required.<br>For more information see the <a href="https://support.surfconext.nl/idp-help-en" target="_blank" rel="noopener noreferrer">wiki</a>.',
                 none: 'None',
             },
             mfa: {
                 name: 'MFA enabled',
                 tooltip:
-                    'Multi factor authentication by the IdP is required.<br>For more information see the <a href="https://wiki.surfnet.nl/display/surfconextdev/MFA+voor+diensten+achter+SURFconext" target="_blank" rel="noopener noreferrer">wiki</a>.',
+                    'Multi factor authentication by the IdP is required.<br>For more information see the <a href="https://support.surfconext.nl/mfa-nl" target="_blank" rel="noopener noreferrer">wiki</a>.',
                 none: 'None',
                 other: 'Other'
             },
@@ -148,7 +148,7 @@ I18n.translations.en = {
             arp: {
                 name: 'Released attributes',
                 tooltip:
-                    'More info about these attributes can be found in the <a href="https://wiki.surfnet.nl/display/surfconextdev/Attributes+in+SURFconext " target="_blank" rel="noopener noreferrer">wiki</a>.',
+                    'More info about these attributes can be found in the <a href="https://support.surfconext.nl/attributes-nl" target="_blank" rel="noopener noreferrer">wiki</a>.',
                 info_html:
                     'It is possible that more attributes are being released to the application through means of attribute manipulation.',
             },
@@ -188,7 +188,7 @@ I18n.translations.en = {
             },
             connected_resource_servers: 'Resource servers',
             sirtfi_security: 'Sirtfi Security',
-            ssid: 'SURFsecureID',
+            ssid: 'govsecure',
             privacy: 'Privacy',
             consent: 'Consent',
             back: 'Back',
@@ -329,10 +329,10 @@ I18n.translations.en = {
         publish_in_edugain_date: 'Published in eduGAIN on:',
         supports_ssa: 'SURFsecureID enabled',
         minimalLoaLevel:
-            'For logging in to this application, second factor authentication is required via SURFsecureID. All users are required to use a token with at least the following Level of Assurance (LoA): <code>{{minimalLoaLevel}}</code>. For more information see the <a href="https://wiki.surfnet.nl/display/SsID/Levels+of+Assurance" target="_blank" rel="noopener noreferrer">wiki</a>.',
+            'For logging in to this service, second factor authentication is required via SURFsecureID. All users are required to use a token with at least the following Level of Assurance (LoA): <code>{{minimalLoaLevel}}</code>. For more information see the <a href="https://support.surfconext.nl/loa-en" target="_blank" rel="noopener noreferrer">wiki</a>.',
         minimalLoaLevelIdp:
-            'For logging in to this application, second factor authentication is required via SURFsecureID. All users from your institution are required to use a token with at least the following Level of Assurance (LoA): <code>{{minimalLoaLevel}}</code>. For more information see the <a href="https://wiki.surfnet.nl/display/SsID/Levels+of+Assurance" target="_blank" rel="noopener noreferrer">wiki</a>.',
-        supportsSsaTooltip: 'Applications can also dynamically request a specific LoA during authentication.',
+            'For logging in to this service, second factor authentication is required via SURFsecureID. All users from your institution are required to use a token with at least the following Level of Assurance (LoA): <code>{{minimalLoaLevel}}</code>. For more information see the <a href="https://support.surfconext.nl/loa-en" target="_blank" rel="noopener noreferrer">wiki</a>.',
+        supportsSsaTooltip: 'Services can also dynamically request a specific LoA during authentication.',
         entity_categories: 'Supported Entity Categories',
         entity_category: {
             'http://wwwgeantnet/uri/dataprotection-code-of-conduct/v1': 'GÉANT Data Protection Code of Conduct',
@@ -358,7 +358,7 @@ I18n.translations.en = {
             'edugain (community)': 'Application offered through the international research and education community via eduGAIN.'
         },
         contractualBaseWiki:
-            'See <a href="https://wiki.surfnet.nl/display/surfconextdev/SURFconext+IdP+dashboard+-+contractuele+info" target="_blank" rel="noopener noreferrer">wiki</a>.',
+            'See <a href="https://support.surfconext.nl/contract-info-nl" target="_blank" rel="noopener noreferrer">wiki</a>.',
     },
 
     attributes_policy_panel: {
@@ -392,7 +392,8 @@ I18n.translations.en = {
             sab: 'SURF Autorisatie Beheer',
             ala: 'Your IdP',
             pseudo_email:'Your IdP',
-            manage: 'SURFconext'
+            manage: 'SURFconext',
+            sabrest: 'SAB'
         },
         sourceTooltip: "Which authority supplies the values for this attribute. Your IdP only needs to provide the items marked with 'Your IdP'.",
         attributes: {
@@ -435,7 +436,7 @@ I18n.translations.en = {
         subtitle: 'The following institutions are connected to {{name}}.',
         subtitle_none: 'There are no institutions connected to {{name}}.',
         subtitle_single_tenant:
-            'When you want to know which institutes use {{name}} through SURFconext, please send an email with your question to support@surfconext.nl.',
+            'When you want to know which institutes use {{name}} through govconext, please send an email with your question to ondersteuning@govroam.nl.',
         institution: 'Institution',
     },
     sirtfi_panel: {
@@ -505,11 +506,11 @@ I18n.translations.en = {
     ssid_panel: {
         title: 'SURFsecureID',
         subtitle:
-            'With <a href="https://wiki.surfnet.nl/display/SsID" target="_blank" rel="noopener noreferrer">SURFsecureID</a> you can better secure access to applications with strong authentication. ',
+            'With <a href="https://support.surfconext.nl/secureid-dev-en" target="_blank" rel="noopener noreferrer">SURFsecureID</a> you can better secure access to services with strong authentication. ',
         subtitle2:
             'A user logs in with username and password (the first factor) and SURFsecureID takes care of the second factor authentication like via a mobile app or USB key.',
         subtitle3:
-            'By chosing a higher <a href="https://wiki.surfnet.nl/display/SsID/Levels+of+Assurance" target="_blank" rel="noopener noreferrer">Level of Assurance (LoA)</a> you can add additional protection to your application by adding a second factor to the user\'s login.',
+            'By choosing a higher <a href="https://support.surfconext.nl/loa-en" target="_blank" rel="noopener noreferrer">Level of Assurance (LoA)</a> you can add additional protection to your service by adding a second factor to the user\'s login.',
         highestLoaReached:
             'You already have the highest LoA setting. For security reasons you can not request a lower LoA in this form. Please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> if you want to lower the LoA for this application.',
         appHasLoaLevel:
@@ -538,20 +539,20 @@ I18n.translations.en = {
         disconnect: 'Deactivate application',
         disconnect_title: 'Deactivate connection with {{app}}',
         done_disconnect_subtitle_html:
-            'You will be contacted about the further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a>.',
+            'You will be contacted about the further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>.',
         done_disconnect_subtitle_html_with_jira_html:
-            'You will be contacted about the further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
+            'You will be contacted about the further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
         done_disconnect_title: 'Deactivation requested!',
         done_disconnect_subtitle_html_with_jira_html_after_invite:
-            'You will be contacted if there are further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
+            'You will be contacted if there are further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
         done_disconnect_title_after_invite: 'Request for deactivation accepted!',
         done_subtitle_html:
-            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a>.',
+            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>.',
         done_subtitle_with_jira_html:
-            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl?subject=Question about connection {{jiraKey}}">support@surfconext.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
+            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl?subject=Question about connection {{jiraKey}}">ondersteuning@govroam.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
         done_title: 'Connection requested!',
         done_subtitle_with_jira_html_after_invite:
-            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl?subject=Question about connection {{jiraKey}}">support@surfconext.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
+            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl?subject=Question about connection {{jiraKey}}">ondersteuning@govroam.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
         done_title_after_invite: 'Request for connection accepted!',
         rejected_without_interaction_title: 'Connection failed!',
         rejected_without_interaction_subtitle: 'Something went wrong while connecting.', // TODO: change text
@@ -573,7 +574,7 @@ I18n.translations.en = {
         jira_unreachable: 'Something went wrong with your request',
         jira_unreachable_description: 'It is currently not possible to do a request. Please try again later.',
         jira_down: 'Ticketing system not available',
-        jira_down_description: 'The ticketing system is not available so change requests can not be processed right now. Please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> to make a change.',
+        jira_down_description: 'The ticketing system is not available so change requests can not be processed right now. Please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> to make a change.',
         license: 'license',
         license_info: 'license information',
         obtain_license: {
@@ -625,7 +626,7 @@ I18n.translations.en = {
         title: 'Application usage',
         download: 'Export',
         error_html:
-            'Stats are currently unavailable. <a href="mailto:support@surfconext.nl">Contact support</a> for more information.',
+            'Stats are currently unavailable. <a href="mailto:ondersteuning@govroam.nl">Contact support</a> for more information.',
     },
     contact: {
         email: 'Application support email',
@@ -701,7 +702,7 @@ I18n.translations.en = {
     server_error: {
         title: "You don't have sufficient access right to access the Dashboard application.",
         description_html:
-            'Please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> if you think this is incorrect.',
+            'Please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> if you think this is incorrect.',
     },
     not_found: {
         title: 'OOPS, I currently can’t show you that page.',
@@ -709,7 +710,7 @@ I18n.translations.en = {
         reasonLoginPre: 'You’re trying to access a page where you need to log in for. Please press ',
         reasonLoginPost: ' and see if that takes you to the page you tried to access.',
         reasonHelp:
-            'You don’t have the right authorisation to access that URL. Please check the <a href="https://wiki.surfnet.nl/display/surfconextdev/SURFconext+IdP+dashboard+-+help+page" target="_blank" rel="noopener noreferrer">Help pages</a> to see who should be able to access what.',
+            'You don’t have the right authorisation to access that URL. Please check the <a href="https://support.surfconext.nl/idp-help-en" target="_blank" rel="noopener noreferrer">Help pages</a> to see who should be able to access what.',
         reasonRemoved: 'The URL you tried to access does not exist (anymore). Sorry.',
         reasonUnknown:
             'You ran into something else, need help and/or maybe we have to fix this. Send us a mail at <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> so we can have a look.',
@@ -722,7 +723,7 @@ I18n.translations.en = {
     footer: {
         tips_or_info: 'Need tips or info?',
         help_html:
-            '<a href="https://wiki.surfnet.nl/display/surfconextdev/SURFconext+IdP+dashboard+-+help+page" target="_blank" rel="noopener noreferrer">Help</a>',
+            '<a href="https://support.surfconext.nl/idp-help-en" target="_blank" rel="noopener noreferrer">Help</a>',
         surf_html: '<a href="https://www.surf.nl/en" target="_blank" rel="noopener noreferrer">SURF</a>',
         terms_html:
             '<a href="https://support.surfconext.nl/terms-en" target="_blank" rel="noopener noreferrer">Terms of Service</a>',
@@ -736,7 +737,7 @@ I18n.translations.en = {
         dutch: 'Dutch',
         roles: 'Roles',
         sub_title_html:
-            'The following roles have been assigned (<a target="_blank" rel="noopener noreferrer" href="https://wiki.surfnet.nl/display/surfconextdev/Rolverdeling+contactpersonen">more info</a>):',
+            'The following roles have been assigned (<a target="_blank" rel="noopener noreferrer" href="https://support.surfconext.nl/rolverdeling">more info</a>):',
         role: 'Role',
         users: 'User(s)',
         settings: 'Settings',
@@ -813,18 +814,6 @@ I18n.translations.en = {
         date_published_in_edugain: 'Date published in eduGAIN',
         logo_url: 'Logo',
         new_logo_url: 'New logo URL',
-        research_and_scholarship_info: 'Connect to CoCo R&S SP’s automatically',
-        research_and_scholarship_tooltip:
-            'Your IdP will be automatically connected to all SPs in<br>SURFconext adhering to both ‘Research & Scholarship Entity Category’<br>and the ‘GEANT Data Protection Code of Conduct’, releasing the R&S attributes. <br>See the <a href="https://support.surfconext.nl/dashboard-help-rns" target="_blank" rel="noopener noreferrer">wiki</a> for more information.',
-        allow_maintainers_to_manage_authz_rules: 'Allow SURFconext maintainers to manage Authorization rules',
-        allow_maintainers_to_manage_authz_rules_tooltip:
-            'The SURFconext maintainers of your IdP are allowed to create, edit and delete<br>Authorization rules.',
-        displayAdminEmailsInDashboard: 'Allow regular members to see admin contacts',
-        displayAdminEmailsInDashboardTooltip:
-            'Regular members of your institution can see the email address of the SURFconext owners <br>and owners of applications of this institution.',
-        displayStatsInDashboard: 'Allow regular members to see statistics',
-        displayStatsInDashboardTooltip:
-            'Regular members of your institution can see the usage / statistics of the applications connected<br>to this institution.',
         contact: 'Contact persons',
         contact_name: {
             title: 'Contact name',
@@ -866,8 +855,8 @@ I18n.translations.en = {
                 title: 'Administrative:<br>',
                 display: 'Administrative',
                 tooltip:
-                    "The administrative contact person of the IdP. This tends to be the person filling the role of 'SURFconext-verantwoordelijke'<br><br>",
-                alttooltip: "suggestion: person with the role 'SURFconext-verantwoordelijke'",
+                    "The administrative contact person of the IdP. This tends to be the person filling the role of 'govconext-verantwoordelijke'<br><br>",
+                alttooltip: "suggestion: person with the role 'govconext-verantwoordelijke'",
             },
             other: {
                 title: 'Other:<br>',
@@ -892,7 +881,7 @@ I18n.translations.en = {
         edit_message: 'You are able to edit the following fields.',
         save: 'Create change request',
         change_request_created:
-            'Change request sent to the SURFconext-team. The ticket number of the change request is {{jiraKey}}',
+            'Change request sent to the govconext-team. The ticket number of the change request is {{jiraKey}}',
         no_change_request_created: 'No change request is created as you did not change anything.',
         change_request_failed: 'Failed to create your change request.',
         comments: 'Comments',
@@ -1231,15 +1220,15 @@ I18n.translations.en = {
             },
             'Shib-userStatus': {
                 name: 'Userstatus',
-                description: 'Status of this user in SURFconext',
+                description: 'Status of this user in govconext',
             },
             'Shib-accountstatus': {
                 name: 'Accountstatus',
-                description: 'Status of this account in SURFconext',
+                description: 'Status of this account in govconext',
             },
             'name-id': {
                 name: 'Identifier',
-                description: 'Status of this account in SURFconext',
+                description: 'Status of this account in govconext',
             },
             'Shib-voName': {
                 name: 'Virtual Organisation Name',
@@ -1247,15 +1236,19 @@ I18n.translations.en = {
             },
             'Shib-user': {
                 name: 'Identifier',
-                description: 'Status of this account in SURFconext',
+                description: 'Status of this account in govconext',
             },
             'is-member-of': {
                 name: 'Membership',
-                description: 'Membership of Virtual Organizations and SURFconext.',
+                description: 'Membership of Virtual Organizations and govconext.',
             },
             'Shib-surfEckid': {
                 name: 'SURF EDU-K',
                 description: 'Educatieve Content Keten Identifier (ECK ID) is a pseudonymous identifier.',
+            },
+            'Shib-surf-autorisaties': {
+                name: 'Authorizations',
+                description: 'The authorizations from SURF.',
             },
         },
     },
@@ -1268,7 +1261,7 @@ I18n.translations.en = {
     mfa_panel: {
         title: 'MFA',
         subtitle:
-            'With <a href="https://wiki.surfnet.nl/display/surfconextdev/MFA+voor+diensten+achter+SURFconext" target="_blank" rel="noopener noreferrer">MFA</a> you can enforce the MultiFactor Authentication of your own IdP for this application if your IdP supports this.',
+            'With <a href="https://support.surfconext.nl/mfa-nl" target="_blank" rel="noopener noreferrer">MFA</a> you can enforce the MultiFactor Authentication of your own IdP for this service if your IdP supports this.',
         subtitle2:
             'You can either choose <span>Generic multi-factor (REFEDS MFA)</span>, an international standard, you can choose <span>Multi-factor on ADFS or Azure AD</span> which is specific for Microsoft products.',
         subtitle3:

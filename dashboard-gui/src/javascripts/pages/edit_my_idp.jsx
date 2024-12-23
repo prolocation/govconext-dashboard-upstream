@@ -41,11 +41,6 @@ class EditMyIdp extends React.Component {
             organisationNameNl: currentIdp.organisationNames.nl || '',
             organisationDisplayNameEn: currentIdp.organisationDisplayNames.en || '',
             organisationDisplayNameNl: currentIdp.organisationDisplayNames.nl || '',
-            publishedInEdugain: !!currentIdp.publishedInEdugain,
-            connectToRSServicesAutomatically: !!currentIdp.connectToRSServicesAutomatically,
-            allowMaintainersToManageAuthzRules: !!currentIdp.allowMaintainersToManageAuthzRules,
-            displayAdminEmailsInDashboard: !!currentIdp.displayAdminEmailsInDashboard,
-            displayStatsInDashboard: !!currentIdp.displayStatsInDashboard,
             comments: '',
             contactPersons: currentIdp.contactPersons.map((contactPerson) => ({
                 name: contactPerson.name || '',
@@ -301,88 +296,6 @@ class EditMyIdp extends React.Component {
                         <td>{this.renderInput('organisationDisplayNameNl')}</td>
                     </tr>
                     <tr>
-                        <td>{I18n.t('my_idp.published_in_edugain')}</td>
-                        <td>{this.renderCheckbox('publishedInEdugain')}</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            {I18n.t('my_idp.research_and_scholarship_info')}
-                            <span>
-                  <i className="fa fa-info-circle" data-for="connectToRSServicesAutomatically" data-tip></i>
-                  <ReactTooltip
-                      id="connectToRSServicesAutomatically"
-                      type="info"
-                      class="tool-tip"
-                      effect="solid"
-                      multiline={true}
-                      delayHide={1000}
-                  >
-                    <span dangerouslySetInnerHTML={{__html: I18n.t('my_idp.research_and_scholarship_tooltip')}}/>
-                  </ReactTooltip>
-                </span>
-                        </td>
-                        <td>{this.renderCheckbox('connectToRSServicesAutomatically')}</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            {I18n.t('my_idp.allow_maintainers_to_manage_authz_rules')}
-                            <span>
-                  <i className="fa fa-info-circle" data-for="allowMaintainersToManageAuthzRules" data-tip></i>
-                  <ReactTooltip
-                      id="allowMaintainersToManageAuthzRules"
-                      type="info"
-                      class="tool-tip"
-                      effect="solid"
-                      multiline={true}
-                      delayHide={1000}
-                  >
-                    <span
-                        dangerouslySetInnerHTML={{
-                            __html: I18n.t('my_idp.allow_maintainers_to_manage_authz_rules_tooltip'),
-                        }}
-                    />
-                  </ReactTooltip>
-                </span>
-                        </td>
-                        <td>{this.renderCheckbox('allowMaintainersToManageAuthzRules')}</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            {I18n.t('my_idp.displayAdminEmailsInDashboard')}
-                            <span>
-                  <i className="fa fa-info-circle" data-for="displayAdminEmailsInDashboard" data-tip></i>
-                  <ReactTooltip
-                      id="displayAdminEmailsInDashboard"
-                      type="info"
-                      class="tool-tip"
-                      effect="solid"
-                      multiline={true}
-                  >
-                    <span dangerouslySetInnerHTML={{__html: I18n.t('my_idp.displayAdminEmailsInDashboardTooltip')}}/>
-                  </ReactTooltip>
-                </span>
-                        </td>
-                        <td>{this.renderCheckbox('displayAdminEmailsInDashboard')}</td>
-                    </tr>
-                    <tr>
-                        <td>
-                            {I18n.t('my_idp.displayStatsInDashboard')}
-                            <span>
-                  <i className="fa fa-info-circle" data-for="displayStatsInDashboard" data-tip></i>
-                  <ReactTooltip
-                      id="displayStatsInDashboard"
-                      type="info"
-                      class="tool-tip"
-                      effect="solid"
-                      multiline={true}
-                  >
-                    <span dangerouslySetInnerHTML={{__html: I18n.t('my_idp.displayStatsInDashboardTooltip')}}/>
-                  </ReactTooltip>
-                </span>
-                        </td>
-                        <td>{this.renderCheckbox('displayStatsInDashboard')}</td>
-                    </tr>
-                    <tr>
                         <td>{I18n.t('my_idp.state')}</td>
                         <td>
                             <select value={this.state.stateType}
@@ -533,7 +446,6 @@ class EditMyIdp extends React.Component {
             descriptionNl: s.descriptions.nl,
             displayNameEn: s.displayNames.en,
             displayNameNl: s.displayNames.nl,
-            publishedInEdugain: s.publishedInEdugain,
             hasGuestEnabled: s.guestEnabled,
             noConsentRequired: s.noConsentRequired,
             contactPersons: s.contactPersons,
