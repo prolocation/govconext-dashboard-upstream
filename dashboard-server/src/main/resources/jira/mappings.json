@@ -18,11 +18,11 @@
   },
   "prod": {
     "customFields": {
-      "spEntityId": "13018",
-      "idpEntityId": "13012",
-      "emailTo": "13009",
-      "typeMetaData": "14800",
-      "optionalMessage": "15300"
+      "spEntityId": "10154",
+      "idpEntityId": "10155",
+      "emailTo": "10191",
+      "typeMetaData": "10188",
+      "optionalMessage": "10225"
     },
     "issueTypes": {
       "question": "10074",
