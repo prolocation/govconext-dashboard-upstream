@@ -18,10 +18,10 @@
   },
   "prod": {
     "customFields": {
-      "spEntityId": "10154",
-      "idpEntityId": "10155",
-      "emailTo": "10191",
-      "typeMetaData": "10188",
+      "spEntityId": "10226",
+      "idpEntityId": "10227",
+      "emailTo": "10228",
+      "typeMetaData": "10229",
       "optionalMessage": "10225"
     },
     "issueTypes": {
