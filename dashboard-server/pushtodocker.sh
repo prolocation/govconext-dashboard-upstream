@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
-IMAGENAME="ghcr.io/openconext/openconext-dashboard/dashboard-gui"
+IMAGENAME="ghcr.io/openconext/openconext-dashboard/dashboard-server"
 #VERSION=12.3.18.1
 VERSION=13.0.6
 
-mvn clean install
+mvn clean install -DskipTests
 docker build --tag ${IMAGENAME}:${VERSION} -f docker/Dockerfile .
 
 # Push to registry
