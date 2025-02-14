@@ -21,14 +21,14 @@
       "spEntityId": "10226",
       "idpEntityId": "10227",
       "emailTo": "10228",
-      "typeMetaData": "10229",
+      "typeMetaData": "10232",
       "optionalMessage": "10225"
     },
     "issueTypes": {
       "question": "10074",
       "linkrequest": "10075",
       "unlinkrequest": "10076",
-      "linkinvite": "10078",
+      "linkinvite": "10077",
       "unlinkinvite": "10078",
       "change": "10079"
     }

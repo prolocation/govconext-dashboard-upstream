@@ -967,7 +967,7 @@ I18n.translations.nl = {
         deny_message_pt: 'Portugese melding',
         description: 'Omschrijving van deze regel',
         idps_placeholder: 'Selecteer de instellingen - 0 of meer',
-        institutions: 'Instelling(en)',
+        institutions: 'Organisatie(s)',
         intro:
             'Configureer wie toegang kan krijgen tot deze applicatie. Hulp nodig? <a href="https://support.surfconext.nl/dashboard-help-pdp" target="_blank" rel="noopener noreferrer">Lees de handleiding.</a>',
         isActive: 'Actief',
@@ -1264,9 +1264,9 @@ I18n.translations.nl = {
                 name: 'SURF EDU-K',
                 description: 'Educatieve Content Keten Identifier (ECK ID) is een pseudonymous identifier.',
             },
-            'Shib-surf-autorisaties': {
+            'Shib-govconext-autorisaties': {
                 name: 'Autorizaties',
-                description: 'De autorizaties van SURF.',
+                description: 'De autorizaties van govconext.',
             },
         },
     },
