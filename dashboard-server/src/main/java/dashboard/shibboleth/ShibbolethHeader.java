@@ -31,7 +31,7 @@ public enum ShibbolethHeader {
     Shib_NlEduPersonStudyBranch("Shib-nlEduPersonStudyBranch"),
     Shib_NlStudielinkNummer("Shib-nlStudielinkNummer"),
     Shib_SURFEckid("Shib-surfEckid"),
-    Shib_SURFautorisaties("Shib-surf-autorisaties");
+    Shib_SURFautorisaties("Shib-govconext-autorisaties");
 
     private final String value;
 
