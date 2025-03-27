@@ -60,7 +60,7 @@ public class ShibbolethPreAuthenticatedProcessingFilter extends AbstractPreAuthe
                 .put("urn:mace:surffederatie.nl:attribute-def:nlEduPersonStudyBranch", Shib_NlEduPersonStudyBranch)
                 .put("urn:mace:surffederatie.nl:attribute-def:nlStudielinkNummer", Shib_NlStudielinkNummer)
                 .put("urn:mace:surf.nl:attribute-def:eckid", Shib_SURFEckid)
-                .put("urn:mace:surf.nl:attribute-def:surf-autorisaties", Shib_SURFautorisaties)
+                .put("urn:govroam:govroam.nl:attribute-def:govconext-autorisaties", Shib_SURFautorisaties)
                 .build();
     }
 
@@ -200,14 +200,16 @@ public class ShibbolethPreAuthenticatedProcessingFilter extends AbstractPreAuthe
                         });
             }
         }
+	LOG.debug("SAB: Searching in attribute: {}", Shib_SURFautorisaties.getValue());
+
         //We need to get the last part, urn:mace:surfnet.nl:surfnet.nl:sab:role:SURF*
         List<String> sabRoles = this.getShibHeaderValues(Shib_SURFautorisaties, request);
         List<String> surfAutorisaties = sabRoles.stream()
-                .filter(s -> s.contains("sab:role"))
+                .filter(s -> s.contains("gab:role"))
                 .map(autorisatie -> autorisatie.substring(autorisatie.lastIndexOf(":") + 1))
                 .toList();
         Optional<String> optionalOrganisation = sabRoles.stream()
-                .filter(s -> s.contains("sab:organizationGUID"))
+                .filter(s -> s.contains("gab:organizationGUID"))
                 .map(autorisatie -> autorisatie.substring(autorisatie.lastIndexOf(":") + 1))
                 .findFirst();
 
