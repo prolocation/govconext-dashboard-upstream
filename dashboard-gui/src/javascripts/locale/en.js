@@ -84,7 +84,7 @@ I18n.translations.en = {
             },
             license: {
                 has_license_sp: 'Yes, with SP',
-                has_license_surfmarket: 'Yes, with SURF',
+                has_license_surfmarket: 'Yes, with govconext',
                 name: 'License',
                 not_needed: 'No',
                 unknown: 'Unknown',
@@ -188,7 +188,7 @@ I18n.translations.en = {
             },
             connected_resource_servers: 'Resource servers',
             sirtfi_security: 'Sirtfi Security',
-            ssid: 'SURFsecureID',
+            ssid: 'govsecure',
             privacy: 'Privacy',
             consent: 'Consent',
             back: 'Back',
@@ -436,7 +436,7 @@ I18n.translations.en = {
         subtitle: 'The following institutions are connected to {{name}}.',
         subtitle_none: 'There are no institutions connected to {{name}}.',
         subtitle_single_tenant:
-            'When you want to know which institutes use {{name}} through SURFconext, please send an email with your question to support@surfconext.nl.',
+            'When you want to know which institutes use {{name}} through govconext, please send an email with your question to ondersteuning@govroam.nl.',
         institution: 'Institution',
     },
     sirtfi_panel: {
@@ -539,20 +539,20 @@ I18n.translations.en = {
         disconnect: 'Deactivate application',
         disconnect_title: 'Deactivate connection with {{app}}',
         done_disconnect_subtitle_html:
-            'You will be contacted about the further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a>.',
+            'You will be contacted about the further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>.',
         done_disconnect_subtitle_html_with_jira_html:
-            'You will be contacted about the further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
+            'You will be contacted about the further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
         done_disconnect_title: 'Deactivation requested!',
         done_disconnect_subtitle_html_with_jira_html_after_invite:
-            'You will be contacted if there are further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
+            'You will be contacted if there are further steps needed to finalize this deactivation. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
         done_disconnect_title_after_invite: 'Request for deactivation accepted!',
         done_subtitle_html:
-            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a>.',
+            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a>.',
         done_subtitle_with_jira_html:
-            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl?subject=Question about connection {{jiraKey}}">support@surfconext.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
+            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl?subject=Question about connection {{jiraKey}}">ondersteuning@govroam.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
         done_title: 'Connection requested!',
         done_subtitle_with_jira_html_after_invite:
-            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:support@surfconext.nl?subject=Question about connection {{jiraKey}}">support@surfconext.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
+            'You will be contacted about the further steps needed to finalize this connection. If you have any questions before that, please contact <a href="mailto:ondersteuning@govroam.nl?subject=Question about connection {{jiraKey}}">ondersteuning@govroam.nl</a> and include the following ticket number in the subject: {{jiraKey}}.',
         done_title_after_invite: 'Request for connection accepted!',
         rejected_without_interaction_title: 'Connection failed!',
         rejected_without_interaction_subtitle: 'Something went wrong while connecting.', // TODO: change text
@@ -574,7 +574,7 @@ I18n.translations.en = {
         jira_unreachable: 'Something went wrong with your request',
         jira_unreachable_description: 'It is currently not possible to do a request. Please try again later.',
         jira_down: 'Ticketing system not available',
-        jira_down_description: 'The ticketing system is not available so change requests can not be processed right now. Please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> to make a change.',
+        jira_down_description: 'The ticketing system is not available so change requests can not be processed right now. Please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> to make a change.',
         license: 'license',
         license_info: 'license information',
         obtain_license: {
@@ -626,7 +626,7 @@ I18n.translations.en = {
         title: 'Application usage',
         download: 'Export',
         error_html:
-            'Stats are currently unavailable. <a href="mailto:support@surfconext.nl">Contact support</a> for more information.',
+            'Stats are currently unavailable. <a href="mailto:ondersteuning@govroam.nl">Contact support</a> for more information.',
     },
     contact: {
         email: 'Application support email',
@@ -702,7 +702,7 @@ I18n.translations.en = {
     server_error: {
         title: "You don't have sufficient access right to access the Dashboard application.",
         description_html:
-            'Please contact <a href="mailto:support@surfconext.nl">support@surfconext.nl</a> if you think this is incorrect.',
+            'Please contact <a href="mailto:ondersteuning@govroam.nl">ondersteuning@govroam.nl</a> if you think this is incorrect.',
     },
     not_found: {
         title: 'OOPS, I currently can’t show you that page.',
@@ -855,8 +855,8 @@ I18n.translations.en = {
                 title: 'Administrative:<br>',
                 display: 'Administrative',
                 tooltip:
-                    "The administrative contact person of the IdP. This tends to be the person filling the role of 'SURFconext-verantwoordelijke'<br><br>",
-                alttooltip: "suggestion: person with the role 'SURFconext-verantwoordelijke'",
+                    "The administrative contact person of the IdP. This tends to be the person filling the role of 'govconext-verantwoordelijke'<br><br>",
+                alttooltip: "suggestion: person with the role 'govconext-verantwoordelijke'",
             },
             other: {
                 title: 'Other:<br>',
@@ -881,7 +881,7 @@ I18n.translations.en = {
         edit_message: 'You are able to edit the following fields.',
         save: 'Create change request',
         change_request_created:
-            'Change request sent to the SURFconext-team. The ticket number of the change request is {{jiraKey}}',
+            'Change request sent to the govconext-team. The ticket number of the change request is {{jiraKey}}',
         no_change_request_created: 'No change request is created as you did not change anything.',
         change_request_failed: 'Failed to create your change request.',
         comments: 'Comments',
@@ -1220,15 +1220,15 @@ I18n.translations.en = {
             },
             'Shib-userStatus': {
                 name: 'Userstatus',
-                description: 'Status of this user in SURFconext',
+                description: 'Status of this user in govconext',
             },
             'Shib-accountstatus': {
                 name: 'Accountstatus',
-                description: 'Status of this account in SURFconext',
+                description: 'Status of this account in govconext',
             },
             'name-id': {
                 name: 'Identifier',
-                description: 'Status of this account in SURFconext',
+                description: 'Status of this account in govconext',
             },
             'Shib-voName': {
                 name: 'Virtual Organisation Name',
@@ -1236,19 +1236,19 @@ I18n.translations.en = {
             },
             'Shib-user': {
                 name: 'Identifier',
-                description: 'Status of this account in SURFconext',
+                description: 'Status of this account in govconext',
             },
             'is-member-of': {
                 name: 'Membership',
-                description: 'Membership of Virtual Organizations and SURFconext.',
+                description: 'Membership of Virtual Organizations and govconext.',
             },
             'Shib-surfEckid': {
                 name: 'SURF EDU-K',
                 description: 'Educatieve Content Keten Identifier (ECK ID) is a pseudonymous identifier.',
             },
-            'Shib-surf-autorisaties': {
+            'Shib-govconext-autorisaties': {
                 name: 'Authorizations',
-                description: 'The authorizations from SURF.',
+                description: 'The authorizations from govconext.',
             },
         },
     },

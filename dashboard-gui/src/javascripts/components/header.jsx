@@ -11,7 +11,7 @@ import Navigation from '../components/navigation'
 import isUndefined from 'lodash.isundefined'
 import stopEvent from '../utils/stop'
 import Flash from '../components/flash'
-import surfLogo from '../../images/SURF.svg'
+import surfLogo from '../../images/govconext-logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons'
 import {login} from "../utils/utils";
@@ -49,8 +49,8 @@ class Header extends React.Component {
         <div className="container">
           <div className="header-content">
             <Link to="/" className="logo-container">
-              <img src={surfLogo} alt="SURF" />
-              <span className="conext">CONEXT</span>
+              <img src={surfLogo} alt="govconext" />
+              <span className="conext"></span>
               <span className="idp-dashboard">IdP Dashboard</span>
             </Link>
 
